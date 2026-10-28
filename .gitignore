@@ -1,0 +1,33 @@
+# Dependencies
+
+node_modules/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+*.log
+npm-debug.log*
+
+# Build outputs
+
+dist/
+build/
+.next/
+
+# Python
+
+**pycache**/
+*.py[cod]
+venv/
+.venv/
+
+# Deployment and system files
+
+.vercel/
+.DS_Store
+Thumbs.db
